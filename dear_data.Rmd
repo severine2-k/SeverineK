@@ -1,0 +1,29 @@
+---
+title: "Welcome to my Dear Data postcard"
+description: |
+  Insights: 
+  I gained an understanding of some patterns, obviously a week is not enough, and I might continue for a month to clearly grasp the whole picture. I took several hours attempting to identify the repercussions of one data to the next and how It can affect your being. 
+  For example, I noted that walking in the afternoon helps me achieve a better night's sleep than walking during the day. It happened that one day I did walk both AM and PM and it had the same effect on my sleep as walking only in PM. Also, the number of miles walked.
+  Interesting how data visualization can alert you to simple mistakes. While writing, I noted that I made a mistake with my last 2 data: I registered my PM walk as an AM walk and it confused me more and changed my data and interpretation. I am more in tune with grasping a visual than just what is written: Data does speak but it is louder when a visual is made out of it.
+  
+  Reflections Pt I:
+  Before answering this question, I must add that I am a detailed person when I choose to be. I have learned to pay attention to my body habits (the nurse in me) and how it reacts under certain circumstances. I can tell what is happening and why it happened even though I could not back it up with data. So, writing down my sleep pattern and what could possibly affect it positively or negatively (I choose sleep because a week or two before the assignment was given, I started noticing things were not lining up, so it came at the right time.) helped me to have an idea of what my body was actually telling me. 
+  The first thing I learned: the pattern gave me something to think about and act upon. My sleep was influenced by my level of activities and my body reacted with headaches; this tells me I must change some habits. I am under “stress” right now due to family obligation, working full time and completing my capstone along with this class. But I used to be under more stress than this, so what changed? Without going into personal details, it led me to one point which is a situation that I have been dealing with for a long time. I realize that I have not fully dealt or coped with it. 
+  Data collection did not take too much of my time but finding ways to visualize it so it makes sense was tricky. Data visualization is another level of understanding and reading beyond what is presented. It gave a different perspective, or should I say rationale of what is actually going on. And sometimes our diverse opinions could make a wrong interpretation. Also, a mistake in the visualization could change the narrative. 
+  I will start to incorporate data collection, visualization, and interpretation as soon as I notice a change within me and make the change or adjust as possible.
+  It was so clearly listed that I did not need a long time to figure out what was the issue.
+  
+  Reflections Pt II:
+  My favorite part was the interpretation, when it came “alive”, when I made it into a visual.
+  Most difficult: using and mixing data to have a better understanding visually. I had to choose some data over others. While making a visual, my mind went back to the week and I wanted to find out what else did I missed.
+  If I could do it again (same collection), I would add the food that I ate, my mood/emotions, and my prayer time.
+
+output: distill::distill_article
+---
+<img src="postcard1.png" style="margin:0 auto; width: 800px">
+
+
+<img src="postcard2.png" style="margin:0 auto; width: 800px">
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)

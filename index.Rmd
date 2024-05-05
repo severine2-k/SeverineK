@@ -1,0 +1,10 @@
+---
+title: "Sevryn_site"
+description: |
+  Welcome to my digital space where I merge healthcare expertise with a passion for data and design. Here, you’ll find insights into health data analytics, reflections on my journey in nursing, and explorations of how data can transform patient care. Dive into my blog for latest updates, visit the portfolio section to see my projects, or learn more about my background on the About page. Enjoy your stay!
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```

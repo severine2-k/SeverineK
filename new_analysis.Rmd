@@ -1,0 +1,48 @@
+---
+title: "Healthcare Access and Disease Impact Across Demographics"
+description: |
+  An in-depth analysis of healthcare utilization during the flu and COVID-19 pandemic, focusing on disparities across different races and ethnicities. This study highlights areas that may require targeted healthcare interventions.
+
+output: distill::distill_article
+---
+
+```{r}
+# Load necessary libraries
+library(readr)
+library(dplyr)
+library(ggplot2)
+
+# Read the dataset
+health_data <- read_csv("healthcare data.csv")
+
+# Prepare data for plotting
+case_data <- health_data %>%
+  group_by(race, ethnicity) %>%
+  summarise(flu_cases = sum(flu_2022), covid_cases = sum(covid), .groups = 'drop')
+
+# Plotting the data
+ggplot(case_data, aes(x = race, y = flu_cases, fill = ethnicity)) +
+  geom_bar(stat = "identity", position = position_dodge()) +
+  facet_wrap(~ethnicity, scales = "free_y") +
+  labs(title = "Flu and COVID-19 Cases by Race and Ethnicity",
+       x = "Race",
+       y = "Number of Cases",
+       fill = "Ethnicity") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
+
+I visualize the distribution of flu and COVID-19 cases across different races and ethnicities, and see how healthcare services were utilized by these groups. This analysis might provide insights into healthcare accessibility or outreach effectiveness during the pandemic.
+
+This approach provides two separate plots:
+
+Flu Cases:
+
+Displays the number of flu cases recorded in the dataset for each race, divided by ethnicity.
+
+COVID-19 Cases:
+
+Similar to the flu cases plot but for COVID-19.
+
+These visualizations can help identify disparities in healthcare coverage or disease impact among different demographic groups, highlighting areas where healthcare interventions might need to be focused.

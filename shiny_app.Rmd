@@ -1,0 +1,13 @@
+---
+title: "Welcome to the Car Analysis Dashboard 2020!"
+description: |
+  Lets dive into the data and explore the car market trends..
+output: distill::distill_article
+---
+
+<iframe src="https://mgallegos.shinyapps.io/SeverineandMarissa/" class="l-screen-inset shaded" height="600px"></iframe>
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```

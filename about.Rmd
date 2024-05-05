@@ -1,0 +1,22 @@
+---
+title: "Severine Kouagheu"
+image: "sev.JPG"
+links:
+  - label: LinkedIn
+    url: "https://linkedin.com/"
+  - label: Twitter
+    url: "https://twitter.com/"
+  - label: GitHub
+    url: "https://github.com/"
+  - label: Email
+    url: "mailto:pyschimi@yahoo.fr"
+output:
+  postcards::jolla
+---
+ Hello! I'm a licensed nurse currently advancing my expertise with a Master of Science in Health Data Analytics. My journey in healthcare is driven by a passion to integrate clinical knowledge with data-driven insights, aiming to improve patient outcomes and healthcare efficiencies.
+
+Beyond my professional life, I have a deep appreciation for the finer things in life like fashion, photography, and the joy of experiencing new things. I believe in living life to the fullest and finding beauty in everyday moments.
+
+Family and faith are central to my life. Residing in Ayer with my loved ones and drawing strength from my faith in God, I find balance and inspiration in both my personal and professional endeavors.
+
+Whether through my academic pursuits or when capturing life’s beauty through a camera lens, I strive to bring passion and precision to everything I do. I look forward to connecting with like-minded professionals and exploring opportunities that blend my healthcare expertise with my love for data and aesthetics.
