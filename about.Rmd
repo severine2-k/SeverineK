@@ -1,6 +1,6 @@
 ---
 title: "Severine Kouagheu"
-image: "sev.jpg"
+image: "./sev.jpg"
 links:
   - label: LinkedIn
     url: "https://linkedin.com/"
